@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 237, 243);
+}
+header{
+    display: flex;
+    background-color: #fff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #b6b1b1 ;
+}
+
+.logo_container{
+    margin-left: 3%;
+}
+.myntra_home{
+    height: 45px;
+}
+.action_bar{
+    margin-right: 3%;
+}
+
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 27px 0;
+    border-bottom: 5px solid #fff;
+}
+
+.nav_bar a:hover{
+    border-bottom: 5px solid #f54e77;
+}
+
+.nav_bar a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+.search_bar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.search_icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+
+.search_input{
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  ////// main ////// */
+.parentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Width: 100%;
+    height: 100%;
+}
+.pic{
+    margin-top: 30px;
+    justify-self: center;
+    width:400px;
+    height: 160px;
+}
+.pic img{
+    width:100%;
+    height: 100%;
+}
+
+.sign{
+    padding: 36px 36px 0px;
+    width:400px;
+    height: 280.69px;
+    background-color: #fff;
+}
+
+.welcome{
+    font-family: Assistant;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 1.42857143;
+    color: #424553;
+}
+
+.mobileno{
+    border: 1px solid #d4d5d9;
+    font-size: 14px;
+    padding: 11px 12px;
+    line-height: 16px;
+    height: auto;
+    color: #282c3f;
+}
+/* .mobileno input{
+   
+} */
+
+
+
